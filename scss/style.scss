@@ -5,6 +5,7 @@
 $primary: #3292a6;
 $primary-overlay: rgba(50, 146, 166, 0.8);
 $dark: #000;
+$info: #6f42c1;
 //$light: #f8f2e3;
 
 $font-family-base: 'Nanum Myeongjo', serif;
@@ -51,24 +52,43 @@ $font-family-base: 'Nanum Myeongjo', serif;
   border-bottom: 1px #ddd solid;
 }
 
-#authors {
-  img {
+#about {
+  .card:hover {
+    background: $light;
+  }
+
+  .fas {
     margin-top: -50px;
   }
+}
 
-  .card:hover {
-    background: $primary;
-    color: #fff;
-  }
+.portfolio-link:hover {
+  text-decoration: none;
+}
 
-  .fab {
-    color: #fff;
+// SMOOTH SCROLLING HELPER PREVENTING NAV TO OVERLAP WITH HEADERS *********************
+
+#about::before,
+#author::before,
+#contact::before {
+  display: block;
+  content: ' ';
+  margin-top: -65px;
+  height: 65px;
+  visibility: hidden;
+}
+
+// MEDIA QUERIES *********************************************************************
+
+@media (max-width: 992px) {
+  .info-header {
+    width: 70%;
   }
 }
 
 @media (max-width: 768px) {
-  .mb-resp {
-    margin-bottom: 1rem;
+  .info-header {
+    width: 80%;
   }
 }
 
@@ -88,6 +108,14 @@ $font-family-base: 'Nanum Myeongjo', serif;
       font-size: 1rem;
     }
   }
+  .info-header {
+    width: 90%;
+  }
+  #main-footer {
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
 }
 
 @media (max-width: 320px) {
@@ -98,5 +126,11 @@ $font-family-base: 'Nanum Myeongjo', serif;
   }
   .logo {
     font-size: 1rem;
+  }
+
+  #main-footer {
+    h3 {
+      font-size: 1.2rem;
+    }
   }
 }
