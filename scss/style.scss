@@ -9,6 +9,8 @@ $info: #6f42c1;
 //$light: #f8f2e3;
 
 $font-family-base: 'Nanum Myeongjo', serif;
+$font-size-base: 1rem !default;
+$blockquote-font-size: $font-size-base;
 
 @import 'bootstrap';
 
@@ -50,6 +52,21 @@ $font-family-base: 'Nanum Myeongjo', serif;
   width: 50%;
   margin: auto;
   border-bottom: 1px #ddd solid;
+}
+
+.slider {
+  width: 90%;
+  margin: auto;
+}
+
+.quotes {
+  // padding-bottom: 3rem;
+  // padding-top: 3rem;
+}
+
+.slick-arrow::before {
+  color: $dark;
+  font-size: 30px;
 }
 
 #about {

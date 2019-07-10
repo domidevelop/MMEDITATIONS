@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://kit.fontawesome.com/a6ae180d5d.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>M M E D I T A T I O N S</title>
   </head>
@@ -72,13 +80,16 @@
                 ><i class="fas fa-arrow-right"></i> Read more</a
               >
             </div>
-            <div class="col-lg-6 ">
-              <img
-                src="img/book.png"
-                alt="book"
-                class="d-none d-lg-block mx-auto w-75"
-                height="auto"
-              />
+            <div class="d-none d-lg-flex col-lg-6 align-items-center justify-content-end">
+              <div class="row" style="width: 70%; height: auto;">
+                <div class="col">
+                    <img
+                    src="img/Marcus_Aurelius_Louvre_MR561_n01.jpg"
+                    alt="book"
+                    style="width:100%; height: auto; opacity: 0.2;"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -96,13 +107,13 @@
               </h1>
               <p class="lead pb-3">
                 Meditations is perhaps the only document of its kind ever made.
-                The book is a personal journal of Marcus Aurelius, great Roman
+                The book is a collection of private notes of Marcus Aurelius, great Roman
                 Emperor and stoic, giving advice to himself on how to make good
                 on the responsibilities and obligations of his positions. It was
                 not inteded to be read by others so his writings are an awesome
                 insight in a mind and philosophy of the world's most powerful
                 man at the time. His thoughts are practical and you can apply
-                them straight away to imporve your way of living.
+                them straight away to improve your way of living.
               </p>
             </div>
             <div class="row">
@@ -110,7 +121,9 @@
                 <div class="card">
                   <div class="card-body">
                     <i class="fas fa-spa fa-4x"></i>
-                    <h3 class="text-primary py-3">Do what you were born for</h3>
+                    <h3 class="text-primary py-3 text-capitalize">
+                      Do what you were born for
+                    </h3>
                     <p>
                       "At dawn, when you have trouble getting out of bed, tell
                       yourself: ‘I have to go to work – as a human being. What
@@ -126,7 +139,7 @@
                 <div class="card">
                   <div class="card-body">
                     <i class="fas fa-brain fa-4x"></i>
-                    <h3 class="text-primary py-3">
+                    <h3 class="text-primary py-3 text-capitalize">
                       Your mind has the power
                     </h3>
                     <p>
@@ -141,14 +154,14 @@
                 <div class="card">
                   <div class="card-body">
                     <i class="fas fa-feather-alt fa-4x"></i>
-                    <h3 class="text-primary py-3">
+                    <h3 class="text-primary py-3 text-capitalize">
                       Focus on the present
                     </h3>
                     <p>
-                      Then remind yourself that past and future have no power
+                      "Then remind yourself that past and future have no power
                       over you. Only the present—and even that can be minimized.
                       Just mark off its limits. And if your mind tries to claim
-                      that it can’t hold out against that…well, then, heap shame
+                      that it can’t hold out against that...well, then, heap shame
                       upon it.”
                     </p>
                   </div>
@@ -159,7 +172,7 @@
                 <div class="card">
                   <div class="card-body">
                     <i class="fas fa-hourglass-half fa-4x"></i>
-                    <h3 class="text-primary py-3">
+                    <h3 class="text-primary py-3 text-capitalize">
                       Accept the death and live full while you can
                     </h3>
                     <p>
@@ -202,12 +215,121 @@
                   style="cursor: pointer;"
                 >
                   <h5 class="mb-0 text-left">
-                    <i class="fas fa-book-open"></i> Short Bio
+                    <i class="fas fa-book-open"></i> Biography
                   </h5>
                 </div>
                 <div id="collapse1" class="collapse">
                   <div class="card-body">
-                    BIO GOES HERE
+                    <blockquote class="blockquote text-left">
+                      <p>
+                        <strong>Marcus Aurelius</strong> (26 April 121 – 17 March 180) was Roman
+                        emperor from 8 March 161 to 17 March 180 and a Stoic
+                        philosopher. He was the last of the rulers traditionally
+                        known as the Five Good Emperors, and the last emperor of
+                        the Pax Romana, an age of relative peace and stability
+                        for the Roman Empire. He was also consul in 140, 145,
+                        and 161.
+                      </p>
+                      <footer class="blockquote-footer">
+                        <cite title="Source Title">From <a href="https://en.wikipedia.org/wiki/Marcus_Aurelius" target="_blank"
+                          class="text-decoration-none h6">Wikipedia</a></cite>
+                      </footer>
+                    </blockquote>
+                    <blockquote class="blockquote text-left">
+                      <p>
+                        Marcus Annius Verus was born in a prominent and
+                        established family but nobody at the time would have
+                        predicted that he would one day be Emperor of the
+                        Empire. There is little that is known of his childhood
+                        but he was a serious young man who also enjoyed
+                        wrestling, boxing and hunting. Around his teenage years,
+                        the reigning emperor at the time, Hadrian was nearing
+                        death and was childless. He had to pick a successor and
+                        after his first choice, Lucius Ceionius, died
+                        unexpectedly, he chose Antoninus. He was a senator who
+                        was also childless and he would have to adopt Marcus, as
+                        per Hadrian’s condition, as well as Ceionius’s son,
+                        Lucius Verus. This is how Marcus’s name changed to
+                        Marcus Aurelius Antoninus. <hr />
+                        Once Hadrian died, it was clear that Marcus was next in
+                        line for the most important position in the empire. His
+                        education would become of serious concern and he would
+                        have the privilege of studying under Herodes Atticus, a
+                        rhetorician from Athens (Marcus would later write his
+                        Meditations in Greek) as well as Marcus Cornelius
+                        Fronto, his instructor in Latin whose letters of
+                        correspondence with Marcus survive to this day. Marcus
+                        would also serve as a consul twice thus receiving a
+                        valuable and practical education. <hr />
+                        In 161, as Antoninus died and ended one of the longest
+                        reigns, Marcus became the Emperor of the Roman Empire
+                        and ruled for nearly two decades until his death in 180.
+                        He also co-ruled in the beginning with Lucius Verus, his
+                        adopted brother until Lucius’ death eight years later.
+                        His reign wasn’t easy: wars with the Parthian Empire,
+                        the barbarian tribes menacing the Empire on the northern
+                        border, the rise of Christianity as well as the plague
+                        that left numerous dead. <hr />
+                        Marcus’s death came in 180 in his military headquarters
+                        in modern day Vienna. The historian Cassius Dio
+                        describes Marcus’s attitude towards his son, Commodus
+                        who he made co-emperor few years earlier and was now to
+                        succeed him: “[Marcus] was not strong in body and was
+                        involved in a multitude of troubles throughout
+                        practically his entire reign. But for my part, I admire
+                        him all the more for this very reason, that amid unusual
+                        and extraordinary difficulties he both survived himself
+                        and preserved the empire. Just one thing prevented him
+                        from being completely happy, namely, that after rearing
+                        and educating his son in the best possible way he was
+                        vastly disappointed in him.” <hr />
+                        It is important to realize the gravity of that position
+                        and the magnitude of power that Marcus possessed. He
+                        held one of—if not the most—powerful positions in the
+                        world at the time. If he chose to, nothing would be off
+                        limits. He could indulge and succumb to temptations,
+                        there was nobody that could restrain him from any of his
+                        wishes. There is a reason the adage that power in
+                        absolute absolutely corrupts has been repeated
+                        throughout history—it unfortunately tends to be true.
+                        And yet, as the essayist Matthew Arnold remarked, Marcus
+                        proved himself worthy of the position he was in. <hr />
+                        And it was not only him who offered that verdict. The
+                        famous historian Edward Gibbon wrote that under Marcus,
+                        the last of the ‘Five Good Emperors,’ “the Roman Empire
+                        was governed by absolute power, under the guidance of
+                        wisdom and virtue”. The guidance of wisdom and virtue.
+                        That’s what separates Marcus from the majority of past
+                        and present world leaders. Just think of the diary that
+                        he left behind, which is now known as his Meditations
+                        which we discuss below: the private thoughts of the most
+                        powerful man in the world, admonishing himself on how to
+                        be more virtuous, more just, more immune to temptation,
+                        wiser. <hr />
+                        And for Marcus, Stoicism provided a framework for
+                        dealing with the stresses of daily life as a leader of
+                        one of the most powerful empires in human history. It is
+                        not surprising that he wrote his Meditations in the last
+                        decade of his life, while on campaigning against foreign
+                        invaders. Passed down from his mentors and teachers,
+                        Marcus embraced the studies of Stoicism which we see in
+                        him thanking his teacher Rusticus for introducing him to
+                        Stoicism and Epictetus inside Meditations. Another
+                        influence on Marcus came from Heraclitus, whose concepts
+                        we can see throughout Meditations and who had a strong
+                        influence on Stoic thought. Given the literary world at
+                        the time, Marcus was mostly likely not exposed to
+                        Seneca, another one of the three most prominent Stoics.
+                        <hr />
+                        What is tragic about Marcus, as one scholar wrote, is
+                        how his “philosophy—which is about self-restraint, duty,
+                        and respect for others—was so abjectly abandoned by the
+                        imperial line he anointed on his death.”
+                      </p>
+                      <footer class="blockquote-footer">
+                        <cite title="Source Title">From <a href="https://dailystoic.com/marcus-aurelius/" class="text-decoration-none h6" target="_blank">Daily Stoic</a></cite>
+                      </footer>
+                    </blockquote>
                   </div>
                 </div>
               </div>
@@ -220,12 +342,29 @@
                   style="cursor: pointer;"
                 >
                   <h5 class="mb-0 text-left">
-                    <i class="fas fa-book-open"></i> Notable work
+                    <i class="fas fa-book-open"></i> Notable Work
                   </h5>
                 </div>
                 <div id="collapse2" class="collapse">
                   <div class="card-body">
-                    MEDITATIONS QUICK DESCRIPTION
+                      <blockquote class="blockquote text-left">
+                          <p>
+                              While on campaign between 170 and 180, Marcus wrote his <strong>Meditations</strong> in Greek as a source for his own guidance and self-improvement. The original title of this work, if it had one, is unknown. 'Meditations' – as well as other titles including 'To Himself' – were adopted later. He had a logical mind and his notes were representative of Stoic philosophy and spirituality. Meditations is still revered as a literary monument to a government of service and duty. According to Gregory Hays, the book was a favourite of Christina of Sweden, Frederick the Great, John Stuart Mill, Matthew Arnold, and Goethe, and is admired by modern figures such as Wen Jiabao and Bill Clinton. It has been considered by many commentators to be one of the greatest works of philosophy.
+                          </p>
+                          <footer class="blockquote-footer">
+                            <cite title="Source Title">From <a href="https://en.wikipedia.org/wiki/Marcus_Aurelius" target="_blank"
+                              class="text-decoration-none h6">Wikipedia</a></cite>
+                          </footer>
+                        </blockquote>
+                          <blockquote class="blockquote text-left">
+                              <p>
+                                  <strong>Meditations</strong> is the definitive text on self-discipline, personal ethics, humility, self-actualization, and strength. It proved to be equally inspirational to writers like Ambrose Bierce and Robert Louis Stevenson as he has been for statesmen like Theodore Roosevelt, Wen Jiabao, and Bill Clinton. If you read it and aren’t profoundly changed by it, it’s probably because as Aurelius says “what doesn’t transmit light creates its own darkness.” As John Stuart Mill put it in his On Liberty, Meditations are “the highest ethical product of the ancient mind”. <hr>
+                                  It is important to remind ourselves that we are lucky to have access to these. As Gregory Hays explains, for centuries traces of it was lost until the beginning of the 10th century, “it reappears in a letter from the scholar and churchman Arethas.”
+                              </p>
+                              <footer class="blockquote-footer">
+                                  <cite title="Source Title">From <a href="https://dailystoic.com/marcus-aurelius/" class="text-decoration-none h6" target="_blank">Daily Stoic</a></cite>
+                              </footer>
+                            </blockquote>
                   </div>
                 </div>
               </div>
@@ -243,7 +382,14 @@
                 </div>
                 <div id="collapse3" class="collapse">
                   <div class="card-body">
-                    WHAT IS STOICISM, PEOPLE, TODAY.
+                      <blockquote class="blockquote text-left">
+                          <p>
+                              A brief synopsis and definition on this particular school of Hellenistic philosophy: <strong>Stoicism</strong> was founded in Athens by Zeno of Citium in the early 3rd century BC, but was famously practiced by the likes of Epictetus, Seneca and Marcus Aurelius. The philosophy asserts that virtue (such as wisdom) is happiness and judgment should be based on behavior, rather than words. That we don’t control and cannot rely on external events, only ourselves and our responses. <hr>Stoicism has just a few central teachings. It sets out to remind us of how unpredictable the world can be. How brief our moment of life is. How to be steadfast, and strong, and in control of yourself. And finally, that the source of our dissatisfaction lies in our impulsive dependency on our reflexive senses rather than logic. <hr>Stoicism doesn’t concern itself with complicated theories about the world, but with helping us overcome destructive emotions and act on what can be acted upon. It’s built for action, not endless debate. <hr>It had three principal leaders. Marcus Aurelius, the emperor of the Roman Empire, the most powerful man on earth, sat down each day to write himself notes about restraint, compassion and humility. Epictetus endured the horrors of slavery to found his own school where he taught many of Rome’s greatest minds. Seneca, when Nero turned on him and demanded his suicide, could think only of comforting his wife and friends. But it is not only those three—Stoicism has been practiced by kings, presidents, artists, writers and entrepreneurs. Both historical and modern men illustrate Stoicism as a way of life. <hr> Stoicism differs from most existing schools in one important sense: its purpose is practical application. It is not a purely intellectual enterprise. It’s a tool that we can use to become better in our craft, better friends and better people. <hr>The Stoics were writing honestly, often self-critically, about how they could become better people, be happier, and deal with the problems they faced. You can see how practicing misfortune makes you stronger in the face of adversity; how flipping an obstacle upside down turns problems into opportunities; and how remembering how small you are keeps your ego manageable and in perspective. <hr> Ultimately, that’s what Stoicism is about. It’s not some systematic discussion of why or how the world exists. It is a series of reminders, tips and aids for living a good life. Stoicism, as Marcus reminds himself, is not some grand Instructor but a balm, a soothing ointment to an injury wherever we might have one. Epictetus was right when he said that “life is hard, brutal, punishing, narrow, and confining, a deadly business.” <hr>We should take whatever help we can get, and it just happens that that help can come from ourselves.
+                          </p>
+                          <footer class="blockquote-footer">
+                              <cite title="Source Title">Find out more at <a href="https://dailystoic.com/what-is-stoicism-a-definition-3-stoic-exercises-to-get-you-started/" class="text-decoration-none h6" target="_blank">Daily Stoic</a></cite>
+                          </footer>
+                        </blockquote>
                   </div>
                 </div>
               </div>
@@ -253,7 +399,7 @@
       </div>
     </section>
 
-    <section id="quotes" class="py-5 text-center">
+    <section id="quotes" class="py-5 text-center bg-light">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -262,19 +408,31 @@
                 Best Quotes
               </h1>
               <p class="lead">
-                These some of the best quotes from Marcus Aurelius to get you
-                going and thinking. You should apply and you will see a positive
+                These are some of the best quotes from Marcus Aurelius to get you
+                going. Apply and practise them and you will see a positive
                 change in your life.
               </p>
             </div>
-            <!-- @todo: IMPLEMENT CAROSEUL WITH QUOTES -->
+           <div class="slider bg-light">
+              <div class="quotes"><p class="h3 font-italic font-weight-lighter mb-0 px-4">“You could leave life right now. Let that determine what you do and say and think.”</p></div>
+              <div class="quotes"><p class="h3 font-italic font-weight-lighter mb-0 px-4">“Waste no more time arguing what a good man should be. Be one.”</p></div>
+              <div class="quotes"><p class="h3 font-italic font-weight-lighter mb-0 px-4">“The impediment to action advances action. What stands in the way becomes the way.”</p></div>
+              <div class="quotes"><p class="h3 font-italic font-weight-lighter mb-0 px-4">“We all love ourselves more than other people, but care more about their opinion than our own.”</p></div>
+              <div class="quotes"><p class="h3 font-italic font-weight-lighter mb-0 px-4">“If it is not right, do not do it, if it is not true, do not say it.”</p></div>
+              <div class="quotes"><p class="h3 font-italic font-weight-lighter mb-0 px-4">“Your mind will take the shape of what you frequently hold in thought, for the human spirit is colored by such impressions.”</p></div>
+             <div class="quotes"><p class="h4 font-italic font-weight-lighter mb-0 px-4">“Whatever anyone does or says, I must be good, just as if the gold, or the emerald, or the purple were always saying this, whatever anyone does or says, I must be emerald and keep my color.”</p></div>
+             <div class="quotes"><p class="h4 font-italic font-weight-lighter mb-0 px-4">“When you’ve done well and another has benefited by it, why like a fool do you look for a third thing on top— credit for the good deed or a favor in return?”</p></div>
+             <div class="quotes"><p class="h4 font-italic font-weight-lighter mb-0 px-4">“When you wake up in the morning, tell yourself: The people I deal with today will be meddling, ungrateful, arrogant, dishonest, jealous, and surly. They are like this because they can’t tell good from evil.”</p></div>
+             <div class="quotes"><p class="h5 font-italic font-weight-lighter mb-0 px-4">“Yes, you can–if you do everything as if it were the last thing you were doing in your life, and stop being aimless, stop letting your emotions override what your mind tells you, stop being hypocritical, self-centered, irritable.”</p></div>
+             <div class="quotes"><p class="h5 font-italic font-weight-lighter mb-0 px-4">“When you need encouragement, think of the qualities the people around you have: this one’s energy, that one’s modesty, another’s generosity, and so on. Nothing is as encouraging as when virtues are visibly embodied in the people around us, when we’re praactically showered with them. It’s good to keep this in mind.”</p></div>      
+           </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- LEARN MORE -->
-    <section id="more" class="bg-light py-5">
+    <section id="more" class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 text-center">
@@ -301,7 +459,7 @@
               awesome starting point for someone interested in this topic.
             </p>
           </div>
-          <div class="col-lg-4 bg-white text-center border">
+          <div class="col-lg-4 bg-light text-center border">
             <h3 class="text-primary py-3">Contact Me!</h3>
             <p>
               Feel free to visit my portfolio website for more projects and more
@@ -368,6 +526,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
     <script>
       // Get the current year for the copyright
       $('#year').text(new Date().getFullYear());
@@ -395,6 +554,14 @@
               window.location.hash = hash;
             };
         }
+      });
+
+      // Initilize a slider
+      $('.slider').slick({
+        infinite: true,
+        slideToShow: 1,
+        slideToScroll: 1,
+        speed: 900
       });
     </script>
   </body>
