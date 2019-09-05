@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>M M E D I T A T I O N S</title>
   </head>
-  <body id="home" data-spy="scroll" data-target="#main-nav">
+  <body id="home" data-spy="scroll" data-target="#main-nav" onload="document.body.style.opacity='1'">
     <!-- NAVIGATION -->
     <nav
       class="navbar navbar-expand-md bg-light navbar-light fixed-top border-bottom"
@@ -84,7 +84,7 @@
               <div class="row" style="width: 70%; height: auto;">
                 <div class="col">
                     <img
-                    src="img/Marcus_Aurelius_Louvre_MR561_n01.jpg"
+                    src="img/Marcus_Aurelius_web.jpg"
                     alt="book"
                     style="width:100%; height: auto; opacity: 0.2;"
                   />
@@ -535,7 +535,7 @@
       $('body').scrollspy({ target: '#main-nav' });
 
       // Smooth Scrolling
-      $('#main-nav a, #showcase a').on('click', function(e) {
+      $('body a').on('click', function(e) {
         // check for hash value
         if (this.hash !== '') {
           // prevent default behavior

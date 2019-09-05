@@ -7591,6 +7591,11 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+body {
+  overflow-x: hidden;
+  opacity: 0;
+  transition: opacity 2s; }
+
 .navbar-brand {
   letter-spacing: 10px; }
 
@@ -7603,7 +7608,7 @@ a.text-dark:hover, a.text-dark:focus {
   letter-spacing: 5px; }
 
 #showcase {
-  background: url("../img/greece_parthenon01.jpg");
+  background: url("../img/greece_parthenon01_web.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

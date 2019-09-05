@@ -15,6 +15,11 @@ $blockquote-font-size: $font-size-base;
 @import 'bootstrap';
 
 //  ****************** end of CUTSOMIZE BOOTSTRAP******************
+body {
+  overflow-x: hidden;
+  opacity: 0;
+  transition: opacity 2s;
+}
 
 .navbar-brand {
   letter-spacing: 10px;
@@ -32,7 +37,7 @@ $blockquote-font-size: $font-size-base;
 }
 
 #showcase {
-  background: url('../img/greece_parthenon01.jpg');
+  background: url('../img/greece_parthenon01_web.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
