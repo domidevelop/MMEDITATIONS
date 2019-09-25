@@ -486,6 +486,11 @@
         slideToScroll: 1,
         speed: 900
       });
+
+      // Close Navbar after click on link
+      $('.navbar-nav>li>a').on('click', function() {
+        $('.navbar-collapse').collapse('hide');
+      });
     </script>
   </body>
 </html>
